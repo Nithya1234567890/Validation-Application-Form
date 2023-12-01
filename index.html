@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&family=Dancing+Script:wght@600;700&family=Edu+TAS+Beginner:wght@500&family=Gabarito&family=Lato:ital,wght@0,700;1,700&family=Poppins&family=Raleway&family=Roboto+Condensed&family=Roboto+Slab:wght@300;400&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="validation.css">
+</head>
+
+<body>
+    <h1>Fill The Form</h1>
+    <div class="box">
+        <form action="" class="form">
+            <div id="first" class="step">
+                <h4>Step1</h4>
+                <div class="fname item">
+                    <label for="fname" aria-required="true">FirstName*</label><br>
+                    <input type="text" placeholder="Enter FirstName" id="fname" value="" required>
+                    <p id="nameer" style="color: red;"></p>
+                </div>
+                <div class="lname item">
+                    <label for="lname">LastName</label><br>
+                    <input type="text" placeholder="Enter LastName" id="lname">
+                </div>
+                <div class="mail item">
+                    <label for="email" aria-required="true">Email*</label><br>
+                    <input type="text" placeholder="Enter Email" id="email" required>
+                    <p id="emailer" style="color: red;"></p>
+                </div>
+            </div>
+            <div id="second" class="step">
+                <h4 style="text-align:center;">Step2</h4>
+                <div class="contact item">
+                    <label for="contact" aria-required="true">Contact*</label><br>
+                    <input type="text" placeholder="Enter Contact No" id="contact" required>
+                    <p id="contacter" style="color: red;"></p>
+                </div>
+                <div class="city item">
+                    <label for="city">City</label><br>
+                    <input type="text" placeholder="Enter City" id="city">
+                </div>
+                <div class="country item">
+                    <label for="country" aria-required="true">Country*</label><br>
+                    <input type="text" placeholder="Enter Country" id="country" required>
+                    <p id="countryer" style="color: red;"></p>
+                </div>
+            </div>
+            <div id="third" class="step">
+                <h4 style="text-align: end;">Step3</h4>
+                <div class="program item">
+                    <label for="program" aria-required="true">Enrolled Program*</label><br>
+                    <select name="" id="program" aria-placeholder="Enrolled Program">
+                        <option value="">BTech</option>
+                        <option value="">Bsc</option>
+                        <option value="">BE</option>
+                        <option value="">BCom</option>
+                    </select>
+                </div>
+                <div class="message item">
+                    <label for="message" aria-required="true">Message*</label><br>
+                    <input type="text" placeholder="" style="height: 100px;" id="message" required>
+                    <p id="messageer" style="color: red;"></p>
+                </div>
+            </div>
+            <button type="button" id="next">Next</button>
+            <button type="button" id="prev">Previous</button>
+            <button type="button" id="submit">Submit</button>
+            <div id="complete">Your Form has been Submitted Successfully</div>  
+        </form>
+    </div>
+    <script src="validation.js"></script>
+</body>
+
+</html>

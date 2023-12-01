@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    color: white;
+}
+#second{
+    display: none;
+}
+#third{
+    display: none;
+}
+#first{
+    display: block;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px 14px white;
+    position: relative;
+}
+
+.form {
+    /* margin-top: 21px; */
+    border: .2px solid white;
+    width: 450px;
+    height: 460px;
+    border-radius: 15px;
+    display: block;
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+label{
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: 1.5rem;
+}
+.step{
+    margin:20px;
+}
+input{
+    width: 400px;
+    height: 43px;
+    border-radius: 10px;
+    font-size: large;
+    box-shadow: 1px 1px 10px rgb(249, 249, 249);
+    background-color: rgb(230, 230, 230);
+}
+.item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    padding: 4px;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 11px white;
+    background-color: lightgray;
+}
+#next{
+    position: absolute;
+    right: 9px;
+    bottom: 20px;
+}
+#submit{
+    position: absolute;
+    right: 9px;
+    bottom: 20px;
+}
+#prev{
+    position: absolute;
+    left: 9px;
+    left: 9px;
+    left: 9px;
+    bottom: 20px;
+}
+#program{
+    width: 400px;
+    height: 30px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px white;
+    font-size: larger;
+}
+
+#complete{
+    font-size: 2.4rem;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    font-family: 'Dancing Script', cursive;
+    display: none;
+}
